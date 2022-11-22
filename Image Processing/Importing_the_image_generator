@@ -1,0 +1,4 @@
+The image data generator has three methods: 1.flow() 2.flow_from_directory() 3.flow_from_dataframe() to read the image from a big numpy array and folders containing images. 4.flow_from_directory()excepts atleast one directory under the given directory path.
+
+import keras
+from keras.preprocessing.image import ImageDataGenerator
